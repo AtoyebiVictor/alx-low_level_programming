@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * Print the file
- * Ends with the value 0.
+ * main - main block
+ * Return: 0
  */
 int main(void)
 {
