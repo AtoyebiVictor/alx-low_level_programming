@@ -1,12 +1,16 @@
+#!/bin/bash
+
 #include <stdio.h>
 
-/*Print a program
- * and ends it with 0
+/* print a file
+ * and ends with
+ * value 0
  */
 
 int main(void) {
 
-	puts("Programming is like building a multilingual puzzle"/n);
+	puts("Programming is like building a multilingual puzzle."\n);
 	return (0);
 
 }
+
