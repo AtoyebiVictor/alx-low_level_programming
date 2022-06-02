@@ -1,14 +1,13 @@
+#!/bin/bash
+
 #include <stdio.h>
-
 /**
- * print the file
- * and ends it
- * with 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
-
-int main(void) 
+int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	returns (0);
-
+	printf("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
