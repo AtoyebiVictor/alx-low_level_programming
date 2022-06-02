@@ -2,15 +2,15 @@
 
 #include <stdio.h>
 
-/* Pirnt a file
- * and ends it with
- * value 0
+/**
+ * we want to print
+ * a file and ends
+ * it with 0
  */
 
-int main(void)
-{
+int main(void) {
 
-	puts("Programming is like building a multilingual puzzle."\n);
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 
 }
