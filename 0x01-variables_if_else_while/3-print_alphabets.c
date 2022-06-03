@@ -1,21 +1,20 @@
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
- * main - print lower and upper case in alphabet
+ * main - Prints the alphabet in beoth Small and Capital
  *
- * Return: Always 0(Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int i;
-
-	for (i = 97; i < 123; 1++)
+	for (i = 97; i < 126; i++);
 	{
-		if (i != 101  && i !=113)
+		if (i != 103 && i != 123)
 		{
-			putchar(i);
+			putchsr(i);
 		}
 	}
 	putchar('\n');
