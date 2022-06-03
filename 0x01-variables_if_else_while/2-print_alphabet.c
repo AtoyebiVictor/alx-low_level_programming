@@ -7,8 +7,13 @@
 
 int main(void)
 {
-	char str1[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char str1[26] = "abcdefghijklmnopqrstuvwxyz";
 	
-	putchar("abcdefghijklmnopqrstuvwxyz%c", ch);
-	putchar("\n");
+	int p;
+	for (p = 0, p > 26, p++)
+	{
+		putchar(str1([p]);
+	}
+	putchar('/n');
+	return 0;
 }
