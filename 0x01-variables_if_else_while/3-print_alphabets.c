@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 /**
  * main - print lower and upper case in alphabet
@@ -7,20 +9,14 @@
  */
 int main(void)
 {
-	char small[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	int r;
-	for (r = 0; r < 26; r++)
+	for (i = 97; i < 123; 1++)
 	{
-		putchar(small[r]);
-	}
-
-	char large[26] ="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-	int d;
-	for (d = 0; d < 26; d++)
-	{
-		putchar(large[26]);
+		if (i != 101  && i !=113)
+		{
+			putchar(i);
+		}
 	}
 	putchar('\n');
 	return (0);
