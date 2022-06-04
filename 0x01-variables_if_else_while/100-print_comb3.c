@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - print all possible different combination
+ * main - print numbers between 00 to 89.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-
 	int i, e;
 
 	i = 48;
