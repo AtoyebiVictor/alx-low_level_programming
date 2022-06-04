@@ -12,10 +12,10 @@ int main(void)
 	i = 48;
 	e = 48;
 
-	while (e < 50)
+	while (e < 58)
 	{
 		i = 48;
-		while (i < 50)
+		while (i < 58)
 		{
 			if (e != i && e < i)
 			{
