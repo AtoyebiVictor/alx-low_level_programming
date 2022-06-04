@@ -8,21 +8,21 @@
 int main(void)
 {
 
-	int k, n;
+	int i, e;
 
-	k = 48;
-	n = 48;
+	i = 48;
+	e = 48;
 
-	while (n < 50)
+	while (e < 50)
 	{
-		k =48;
-		while (k < 50)
+		i =48;
+		while (i < 50)
 		{
-			if (n != k && n != k)
+			if (e != i && e != i)
 			{
-				putchar(n);
-				putchar(k);
-				if (k == 57 && n == 56)
+				putchar(e);
+				putchar(i);
+				if (i == 57 && e == 56)
 				{
 					break;
 				}
@@ -30,9 +30,9 @@ int main(void)
 				putcher(' ');
 
 			}
-			k++;
+			i++;
 		}
-		n++;
+		e++;
 	}
 	putcher('\n');
 	return (0);
