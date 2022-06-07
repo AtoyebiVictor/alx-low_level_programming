@@ -1,15 +1,17 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - print out code that deals with prototype
+ * main - check the code for alx student
  *
- * Return: Always 0
+ * Return: Always 0(Success)
  */
 void print_alphabet(char);
 
 int main(void)
 {
 	char j;
+
+	print_alphabet(j);
 
 	for (j = 'a'; j <= 'z'; j++)
 	{
