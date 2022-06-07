@@ -6,22 +6,15 @@
  *
  * Return: Always 0(Success)
  */
-void print_alphabet(char);
-
-int main(void)
+void print_alphabet(void)
 {
 	char j;
 
-	for (j = 'a'; j <= 'z'; j++)
+	for (j = 97; j <= 122; j++)
 	{
-		printf("%c", j);
+		_putchar(j);
 	}
-	printf("\n");
+	_putchar('\n');
 	return 0;
-}
-void print_alphabet(char)
-{
-	printf("_putchar");
-	printf("_putchar");
 }
 
