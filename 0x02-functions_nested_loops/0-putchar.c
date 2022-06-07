@@ -1,11 +1,12 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
- * main - prints out _putchar with a new line
- * Returns: Always 0 (Success)
+ * main - prints out the output
+ *
+ * Return: ALways 0 (Success)
  */
 int main()
 {
 	printf("_putchar\n");
-	return (0);
+	return 0;
 }
