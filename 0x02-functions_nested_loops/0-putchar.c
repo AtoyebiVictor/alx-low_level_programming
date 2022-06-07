@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * main - prints -putchar as a message.
  *
  * Retun: ALways 0 (SUccess)
  */
