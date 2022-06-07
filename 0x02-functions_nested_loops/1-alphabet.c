@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Check the code
+ * main - print out code that deals with prototype
  *
  * Return: Always 0
  */
@@ -13,9 +13,9 @@ int main(void)
 
 	for (j = 'a'; j <= 'z'; j++)
 	{
-		putchar("%c", j);
+		printf("_putchar %c", j);
 	}
-	putchar("\n");
+	printf("_putchar\n");
 	return 0;
 }
 
