@@ -13,7 +13,7 @@ int _isalpha(int c)
 	}
 	else
 	{
-		return (c);
+		return (0);
 	}
 	_putchar('\n');
 }
