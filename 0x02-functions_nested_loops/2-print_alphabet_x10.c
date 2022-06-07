@@ -1,7 +1,7 @@
-#include "main"
+#include <stdio.h>  
 
 /**
- * print_alphabet_x10(void) - print lokercase 10 times
+ * main - print lokercase 10 times
  *
  * Return: Always 0 (Success)
  */
