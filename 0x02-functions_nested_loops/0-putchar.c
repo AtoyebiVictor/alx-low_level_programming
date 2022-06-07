@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - print _putchat as our output
+ * main - print _putchat as message.
  *
  * Retun: ALways 0 (SUccess)
  */
