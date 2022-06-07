@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main - check the code for alx student
+ * main - Check code for alx school
  *
- * Return: Always 0(Success)
+ * Return: Always 0 (Success)
  */
 void print_alphabet(void)
 {
-int j;
+	int j;
 
 	for (j = 97; j <= 122; j++)
 	{
@@ -16,4 +16,3 @@ int j;
 	_putchar('\n');
 	return 0;
 }
-
