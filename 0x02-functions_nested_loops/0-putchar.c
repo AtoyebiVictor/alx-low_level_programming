@@ -1,12 +1,12 @@
 #include <main.h>
 
 /**
- * main - prints out the output
+ * main - print out the output
  *
- * Return: ALways 0 (Success)
+ * Return: Always 0(Sicces)
  */
 int main()
 {
 	printf("_putchar\n");
-	return 0;
+	return (0);
 }
