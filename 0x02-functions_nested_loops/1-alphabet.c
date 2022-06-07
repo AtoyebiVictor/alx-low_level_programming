@@ -12,13 +12,16 @@ int main(void)
 {
 	char j;
 
-	print_alphabet(j);
-
 	for (j = 'a'; j <= 'z'; j++)
 	{
-		printf("_putchar %c", j);
+		printf("%c", j);
 	}
-	printf("_putchar\n");
+	printf("\n");
 	return 0;
+}
+void print_alphabet(char)
+{
+	printf("_putchar");
+	printf("_putchar");
 }
 
