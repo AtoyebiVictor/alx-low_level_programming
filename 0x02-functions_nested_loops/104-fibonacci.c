@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the first 98 fibonacci numbers
+ * main - Prints the first 98 fibonacci numbers
  *
- * Retun: ALwys 0
+ * Retun: ALways 0.
  */
 int main(void)
 {
