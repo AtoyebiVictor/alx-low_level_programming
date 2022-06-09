@@ -2,7 +2,7 @@
 
 /**
  * main - prints largest prime factors.
- * Return: Always 0;
+ * Return: Always 0.
  */
 
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 		if (n % fp == 0)
 		{
 			n /= fp;
-			fp --;
+			fp--;
 		}
 	}
 	printf("%ld\n", fp);
