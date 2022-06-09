@@ -2,9 +2,10 @@
 
 void print_numbers(void)
 {
-	for (c = 48; c <= 57; c++)
+	for (i = 0; i <= 9; i++)
 	{
-		_putchar("%c", c);
+		_putchar("%d", i);
 	}
 	_putchar('\n');
+	return (0);
 }
