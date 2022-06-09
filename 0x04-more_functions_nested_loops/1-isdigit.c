@@ -5,6 +5,7 @@
  * @i: check numbers
  * Return: 1 if c is a digit, then return 0
  */
+
 int _isdigit(int c)
 {
 	if (c >= 48 && c <= 57)
