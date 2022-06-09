@@ -14,7 +14,7 @@ int main(void)
 	{
 		if (n % fp == 0)
 		{
-			n /= fb;
+			n /= fp;
 			fp --;
 		}
 	}
