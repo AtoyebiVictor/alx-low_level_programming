@@ -18,7 +18,7 @@ int _atoi(char *s)
 	while (*(s + index) != '\0')
 	{
 		now = *(s + index);
-		if (now == '_')
+		if (now == '-')
 		{
 			sign *= -1;
 		}
