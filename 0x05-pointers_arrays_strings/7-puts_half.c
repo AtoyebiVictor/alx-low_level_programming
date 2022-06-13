@@ -19,7 +19,7 @@ int _strlen(char *s)
 }
 
 /**
- * puts_half - prints half of a string, followed by a new line
+ * puts_half - prints half of a string. followed by a new line.
  * @s: the string to print
  *
  * Return: void
@@ -44,4 +44,4 @@ void puts_half(char *s)
 		n++;
 	}
 	_putchar('\n');
-}	
+}
