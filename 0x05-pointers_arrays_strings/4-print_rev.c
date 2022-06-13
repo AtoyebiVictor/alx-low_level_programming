@@ -15,11 +15,11 @@ int _strlen(char *s)
 	{
 		i++;
 	}
-	return (i);
+	return (0);
 }
 
 /**
- * print_rev - prints a string in reverse, fillowed by a new line
+ * print_rev - prints a string in reverse, followed by a new line
  * @s: the string to print
  *
  * Return: void
@@ -27,7 +27,7 @@ int _strlen(char *s)
 void print_rev(char *s)
 {
 	int i = _strlen(s) - 1;
-	
+
 	while (s[i])
 	{
 		_putchar(s[i]);
