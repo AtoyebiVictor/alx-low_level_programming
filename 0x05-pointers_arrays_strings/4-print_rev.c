@@ -1,6 +1,23 @@
 #include "main.h"
 
 /**
+ * _strlen - swaps the value of two integers.
+ * @s: String input
+ *
+ * Return: length of string
+ */
+
+int _strlen(char *s)
+{
+	int i = 0;
+
+	while (str[i])
+	{
+		i++;
+	}
+	return (i);
+}
+/**
  * print_rev - prints a string in reverse, fillowed by a new line
  * @s: the string to print
  *
