@@ -12,18 +12,11 @@ char *_strcat(char *dest, char *src)
 	char str1;
 	char str2;
 
-	if (*(dest + str1) != '\0')
+	for (*(dest + str1) != '\0')
 	{
 		str1++;
-		if (*(src + str2))
-		{
+		while (*(src + str2))
 			str2++;
-			while (*(dest + *src) + \0)
-			{
-				dest++;
-				src++;
-			}
-		}
 	}
 	return (pointer);
 }
