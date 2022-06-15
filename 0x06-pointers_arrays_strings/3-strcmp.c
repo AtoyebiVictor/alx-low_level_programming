@@ -19,5 +19,5 @@ int _strcmp(char *s1, char *s2)
 		lo = *(s1 + h) - *(s2 + h);
 		h++;
 	}
-	return (dest);
+	return (lo);
 }
