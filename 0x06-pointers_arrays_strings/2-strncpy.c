@@ -4,7 +4,7 @@
  * @dest: destination
  * @src: source
  * @n: print amount of byte used from src.
- * Return: 
+ * Return: the pointer to dest.
  */
 char *_strncpy(char *dest, char *src, int n)
 {
