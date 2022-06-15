@@ -5,7 +5,7 @@
  * @d: first string
  * @s: second string
  *
- * Return: pointer to the resulting string
+ * Return: pointer to the resulting string dest
  */
 char *_strcat(char *dest, char *src)
 {
@@ -19,5 +19,5 @@ char *_strcat(char *dest, char *src)
 
 		dest[i + j] = '\0';
 	}
-	return (pointer);
+	return (dest);
 }
