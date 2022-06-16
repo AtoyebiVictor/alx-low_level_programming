@@ -5,6 +5,7 @@
  * @s: input string
  * Return: the pointer to s.
  */
+
 char *string_toupper(char *s)
 {
 	int i = 0;
@@ -15,5 +16,6 @@ char *string_toupper(char *s)
 			*(s + i) = *(s - 1) - 32;
 		i++;
 	}
+
 	return (s);
 }
