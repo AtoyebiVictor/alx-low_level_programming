@@ -9,16 +9,22 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	unsigned int i, j;
+	char *like;
+	char *joy;
 
-	for (i = 0; *(haystack + i) != '\0'; i++)
+	while (*haystack != '\0')
 	{
-		for (j = 0; *(needle + j) != '\0'; j++)
+		like = haystack;
+		joy = needle;
+
+		while (*haystack != '\0' && *joy != '\0' && *haystack == *joy)
 		{
-			if (*(needle + j) != '\0' && *(haystack + i) != '\0')
-				i++;
-				j++;
+			haystack++;
+			joy++;
 		}
+		if (!*joy)
+			return (like);
+		haystack = like + 1;
 	}
 	return (0);
 }
