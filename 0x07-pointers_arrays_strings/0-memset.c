@@ -1,6 +1,12 @@
 #include "main.h"
 
 /**
+ * *_memset functions that fills
+ * @n: bytes of the memory
+ * @s: Area pointed
+ * @b: constan bytes
+ *
+ * Return: pointed to the memory area S
  */
 char *_memset(char *s, char b, unsigned int n)
 {
