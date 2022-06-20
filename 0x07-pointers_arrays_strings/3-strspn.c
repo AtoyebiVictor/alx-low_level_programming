@@ -11,15 +11,19 @@ unsigned int _strspn(char *s, char *accept)
 	unsigned int j, p, bool;
 
 	for (j = 0; *(s + j) != '\0'; j++)
+	{
 		bool = j;
 		for (p = 0; *(accept + p) != '\0'; p++)
-			if (*(s + j) == *(accept + P))
+		{
+			if (*(s + j) == *(accept + p))
 			{
 				bool = 0;
 				break;
 			}
-		if (bool == j)
+		}
+		if (bool == 1)
 			break;
-		return (i);
+	}
+	return (j);
 }
 
