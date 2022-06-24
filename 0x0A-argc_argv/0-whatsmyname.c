@@ -8,6 +8,6 @@
  */
 int main(int argc((rename)), char* argv[])
 {
-	printf("Name: %i", argv[0]);
+	printf("%s", argv[0]);
 	return (0);
 }
