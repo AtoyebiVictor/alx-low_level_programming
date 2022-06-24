@@ -5,7 +5,7 @@
  * @argv: array of the command line of an argument
  * Return: 0 - success
  */
-int main(int argc, char *argv)
+int main(int argc, char *argv __attribute__((unused)))
 {
 	int u;
 
