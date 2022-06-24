@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
  * main - prints its name, followed by a new line
- * @argc: contains the argument
- * @argv: arrays of the argument
+ * @argc: contains the number of command line argument
+ * @argv: arrays that contain the argument of the command line
  * Return: 0 - success.
  */
-int main(int argc_attribut_((unused)), char *argv[])
+int main(char argc, char *argv[])
 {
 	printf("%s\n", argv[0]);
 	return (0);
