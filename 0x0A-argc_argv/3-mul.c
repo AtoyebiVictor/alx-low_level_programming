@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
  * main - multiplies two numbers
  * @args: contains the command line of an argument
@@ -7,11 +9,17 @@
  */
 int main(int argc, char *argv[])
 {
+	int j;
+
 	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+
+	j = atoi(argv[1]) * atoi(argv[2]);
+
+	printf("%d\n", j);
+
 	return (0);
 }
