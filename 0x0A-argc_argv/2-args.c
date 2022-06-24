@@ -5,13 +5,13 @@
  * @argv: array of the command line of an argument
  * Return: 0 - success
  */
-int main(int argc, char *argv __attribute__((unused)))
+int main(int argc, char *argv[])
 {
 	int u;
 
 	for (u = 0; u < argc; u++)
 	{
-		printf("%d\n", argv[u]);
+		printf("%s\n", argv[u]);
 	}
 	return (0);
 }
