@@ -3,8 +3,10 @@
 
 /**
  * main - multiplies two numbers
- * @args: contains the command line of an argument
- * @argv: array of a command line of an argument
+ *
+ * @argc: number of arguments
+ * @argv: 1-D array of arguments
+ *
  * Return: 0 on success, 1 otherwise
  */
 
