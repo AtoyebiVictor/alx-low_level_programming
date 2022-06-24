@@ -5,8 +5,11 @@
  * @argv: arrays that contain the argument of the command line
  * Return: 0 - success.
  */
-int main(char argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[0]);
+	int j;
+
+	if (j = 0; j < argc; j++)
+		print("%s", argv[j]);
 	return (0);
 }
