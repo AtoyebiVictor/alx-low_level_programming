@@ -5,8 +5,8 @@
  * @argv: array of the number of line in an argument
  * Return: 0 - success
  */
-int main(int argc, char *argv[])
+int main(int argc, char *argv[]__attribute__((unused)))
 {
-	printf("%d", argc - 1);
+	printf("%d\n", argc - 1);
 	return (0);
 }
