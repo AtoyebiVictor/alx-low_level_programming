@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - prints the name followed by anew line
- * @argc: containing the argument
- * @argv: array of the argument
+ * main - prints its name, followed by a new line
+ * @argc: contains the argument
+ * @argv: arrays of the argument
  * Return: 0
  */
-int main(int argc((rename)), char* argv[])
+int main(int argc((rename)), char argv[])
 {
-	printf("%s", argv[0]);
+	printf("%s\n", argv[0]);
 	return (0);
 }
