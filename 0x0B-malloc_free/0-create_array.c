@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * create_array: create an array of chars and intialize it ith a soecific char.
@@ -10,20 +11,17 @@ char *create_array(unsigned int size, char c)
 {
 	char *ar;
 	unsigned int l;
-	
+
 	if (size == 0)
-	{
 		return (NULL);
-	}
 
 	ar = malloc(sizeof(c) * size);
 
-	if (cr == NULL)
-	{
+	if (ar == NULL)
 		return (NULL);
-	}
 
-	if (l = 0; l < size; l++)
+	for (l = 0; l < size; l++)
 		ar[l] = c;
+
 	return (ar);
 }
