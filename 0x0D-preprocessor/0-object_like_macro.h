@@ -1,5 +1,5 @@
-#ifndef _LETS_CODE_
-#define _LETS_CODE_
+#ifndef _OBJECT_LIKE_MACRO_
+#define _OBJECT_LIKE_MACRO_
 
 #define SIZE 1024
 
