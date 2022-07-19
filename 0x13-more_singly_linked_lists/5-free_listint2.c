@@ -9,14 +9,14 @@
 void free_listint2(listint_t **head)
 {
 	listint_t *joy;
-	listint_t *hop;
-	
+	listint_t *love;
+
 	if (head != NULL)
 	{
-		hop = head;
-		while((joy = hop) != NULL)
+		love = *head;
+		while ((joy = love) != NULL)
 		{
-			hop = hop->next;
+			love = love->next;
 			free(joy);
 		}
 		*head = NULL;
