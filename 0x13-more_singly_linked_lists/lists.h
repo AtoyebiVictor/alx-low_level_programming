@@ -1,8 +1,9 @@
-#ifndef _LISTS_
-#define _LISTS_
+#ifndef _LISTS_H
+#define _LISTS_H
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * struct listint_s - singly linked list
@@ -23,11 +24,11 @@ typedef struct listint_s
  * @next: points to the next node
  * Description: singly linked list of pointers
  */
-typedef struct listp_s
+typedef struct listptr_s
 {
-	void *p;
-	struct listp_s *next;
-} listp_t;
+	void *ptr;
+	struct listptr_s *next;
+} listptr_t;
 
 size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
