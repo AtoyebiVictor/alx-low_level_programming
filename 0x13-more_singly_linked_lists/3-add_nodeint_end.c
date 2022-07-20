@@ -1,18 +1,16 @@
 #include "lists.h"
+#include <stdio.h>
 
 /**
  * add_nodeint_end - adds a new node at the end
  * @head: head of a nodes
  * @n: integer
- *
  * Return: Address of new element or NULL
  */
+
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *lots;
-	listint_t *joy;
-
-	(void)joy;
 
 	lots = malloc(sizeof(listint_t));
 
@@ -21,18 +19,22 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 
 	lots->n = n;
 	lots->next = NULL;
-	joy = *head;
+
 	if (*head == NULL)
 	{
-		*head = joy;
+		*head = lots;
 	}
 	else
 	{
-		while (joy->next != NULL)
+		listint_t *last = *head;
+
+		while (last->next != NULL)
 		{
-			joy = joy->next;
+			last = last>next;
 		}
-		joy->next = lots;
+
+		last->next = lots;
 	}
-	return (*head);
+
+	return (lots);
 }
